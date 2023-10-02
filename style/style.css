@@ -44,13 +44,13 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 600;
-    color: white;
+    color: rgb(243, 243, 243);
     text-decoration: none;
 }
 
 /* Define a cor do texto para elementos com a classe .titulo-destaque como d38b06 (laranja) */
 .titulo-destaque {
-    color: #111111;
+    color: #0e0d0dfd;
 }
 
 /* Estilos para elementos com a classe .conteudo */
@@ -109,7 +109,7 @@ body {
     line-height: 1.5; /* Espaçamento entre linhas confortável */
     text-align: justify; /* Alinhamento justificado para melhor legibilidade */
     padding: 20px; /* Espaçamento interno para maior conforto visual */
-    background-color: #ebebeb; /* Fundo cinza claro para destacar o texto */
+    background-color: #f3efef; /* Fundo cinza claro para destacar o texto */
     border-radius: 10px; /* Cantos arredondados para um visual suave */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil para efeito de elevação */
     margin: 20px 0; /* Margem externa para espaçamento entre seções */
@@ -128,10 +128,22 @@ body {
     text-align: justify;
 }
 
+.apresentacao-conteudo-titulo2 {
+    font-size: 26px;
+    /* Define a família de fontes como 'Krona One' com fallback para sans-serif */
+    font-family: 'Krona One', sans-serif;
+    /* Alinha o texto justificado */
+    text-align: center;
+    /* Define o peso da fonte como negrito */
+    font-weight: bold;
+    /* Define a cor do texto como preto */
+    color: rgb(0, 0, 0);
+}
+
 /* Estilos para elementos com a classe .apresentacao-conteudo-paragrafo */
 .apresentacao-conteudo-paragrafo {
     /* Define o tamanho da fonte como 24px */
-    font-size: 24px;
+    font-size: 25px;
 
     /* Define a família de fontes como 'Montserrat' com fallback para sans-serif */
     font-family: 'Montserrat', sans-serif;
