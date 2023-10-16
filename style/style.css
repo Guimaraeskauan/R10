@@ -332,15 +332,15 @@ body {
 /* inicio estilizaçãp ancora3(botao3) */
 
 .botao3 {
-    background-color: #000;
+    background-color: #0c0c0c;
     align-items: center;
-    color: #333; /* Cor padrão do GitHub */
+    color: #f7f7f7; /* Cor padrão do GitHub */
     width: 500px;   
     height: 80px; 
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid #333;
+    border: 2px solid #6d6a6a;
     border-radius: 50px;
     font-size: 24px;
     padding: 15px 0;
