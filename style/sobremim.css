@@ -111,8 +111,16 @@ body {
 .imagemsobremim2 {
     max-width: 90%; /* A imagem se ajustará ao tamanho do contêiner pai */
     height: auto;
-    border-radius: 950px; /* Adiciona curvatura nos cantos do elemento */
+    border-radius: 50%; /* Adiciona curvatura nos cantos do elemento para torná-lo circular */
     transition: transform 0.3s ease-in-out; /* Efeito de transição suave ao passar o mouse sobre a imagem */
+
+    /* Defina o fundo como um degradê */
+    background: linear-gradient(135deg, #f3f1f0, #ff9900);
+
+    /* Adicione uma borda degradê ao redor da imagem */
+    border: 5px solid transparent;
+    background-clip: padding-box;
+    box-shadow: 0 0 0 10px #111111, 0 0 0 15px #00ccff;
 }
 
 /* Efeito de escala suave ao passar o mouse sobre a imagem */
@@ -127,8 +135,8 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    color: rgb(24, 23, 23);
-    background-color: #05d9f5;
+    color: rgb(255, 255, 255);
+    background-color: #0f0f0f;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -141,5 +149,5 @@ body {
 
 /* Estilo de link no rodapé */
 .rodape a:hover {
-    color: #105dee;
+    color: #10e7ee;
 }
